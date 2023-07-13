@@ -1,0 +1,31 @@
+body {
+  background-image: url(/public/backroundd.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.card-text {
+  margin-bottom: 16px;
+}
+.x {
+  color: white;
+}
+.y:hover {
+  background-color: #45a049;
+}
